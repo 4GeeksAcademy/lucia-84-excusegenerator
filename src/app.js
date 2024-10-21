@@ -31,7 +31,7 @@ function generateExcuse() {
   let whenIndex = Math.floor(Math.random() * when.length);
   document.querySelector("#the-excuse").innerHTML;
 
-  return `${who[WhoIndex]}${action[actionIndex]}${what[whatIndex]}${when[whenIndex]}`;
+  return `${who[WhoIndex]} ${action[actionIndex]} ${what[whatIndex]} ${when[whenIndex]}`;
 }
 
 // funciones por expresión
